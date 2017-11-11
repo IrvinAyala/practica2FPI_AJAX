@@ -4,7 +4,7 @@ $sPass = $_POST["txtPass"];
 $sResponse = "";
 
 if ($sUsuario == "admin" && $sPass == "admin") {
-  $sResponse = "Acesso concedido";
+  $sResponse = "Acceso concedido";
 }else {
   $sResponse = "Acceso denegado";
 }
